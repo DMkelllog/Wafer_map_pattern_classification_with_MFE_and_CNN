@@ -22,9 +22,7 @@ n_estimator = 100
 
 #### 2) Feed-forward Neural Network
 Two dense layers (128 hidden nodes) with relu activation
-Adam optimizer  
-learning rate = 0.0001  
-batch size = 1024
+** neural network training settings **
 (20% of training dataset used as validation dataset for hyperparameter search)  
 (standard scaling with training dataset)
 
@@ -37,4 +35,4 @@ RBF kernel, C = 1000, gamma = 0.001
 #### 1) Resizing
 resize size = 32, 64, 96, 128  
 #### 2) CNN architecture  
-
+[images] CNN architecture
