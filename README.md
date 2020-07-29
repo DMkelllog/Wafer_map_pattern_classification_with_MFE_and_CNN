@@ -15,12 +15,16 @@
 total 59 manually extracted features
 
 ### 2] Classifier
+
 #### 1) Random Forest
 n_estimator = 100 
 (no hyperparameter search)
+
 #### 2) Feed-forward Neural Network
 Two dense layers (128 hidden nodes) with relu activation
-(20% of training dataset used for hyperparameter search)
+(20% of training dataset used as validation dataset for hyperparameter search)
+(standard scaling with training dataset)
+
 #### 3) Support Vector Machine
 RBF kernel, C = 1000, gamma = 0.001
 (20% of training dataset used for hyperparameter search)
