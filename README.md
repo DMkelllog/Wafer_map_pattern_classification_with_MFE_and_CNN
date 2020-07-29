@@ -21,8 +21,8 @@ n_estimator = 100
 (no hyperparameter search)
 
 #### 2) Feed-forward Neural Network
-Two dense layers (128 hidden nodes) with relu activation
-** neural network training settings **
+Two dense layers (128 hidden nodes) with relu activation  
+** neural network training settings **  
 (20% of training dataset used as validation dataset for hyperparameter search)  
 (standard scaling with training dataset)
 
