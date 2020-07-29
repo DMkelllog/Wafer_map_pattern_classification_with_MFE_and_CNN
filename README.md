@@ -1,2 +1,2 @@
-# DMkelllog
-Data Mining Kelllog
+# Wafer map pattern classification
+
