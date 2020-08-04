@@ -11,7 +11,7 @@
 6 features
 #### 3) Radon features
 40 features
-
+[MFE image]https://github.com/DMkelllog/dmkelllog.github.io/blob/master/assets/images/MFE.png?raw=true
 total 59 manually extracted features
 
 ### 2] Classifier
