@@ -2,7 +2,11 @@
 
 ## 0. Data Description
 
-![Data description.jpg](https://github.com/DMkelllog/dmkelllog.github.io/blob/master/assets/images/Data%20description.jpg?raw=true)
+<img src="https://github.com/DMkelllog/dmkelllog.github.io/blob/master/assets/images/Data%20description.jpg?raw=true" alt="Data description.jpg" style="zoom: 50%;" >
+
+
+
+
 
 ## 1. Manual Feature Extraction approaches
 
@@ -14,19 +18,27 @@
 
 ![alt-text-1](https://github.com/DMkelllog/dmkelllog.github.io/blob/master/assets/images/density_features1.png?raw=true) ![alt-text-2](https://github.com/DMkelllog/dmkelllog.github.io/blob/master/assets/images/density_features2.png?raw=true)
 
-13 features
+* a wafer map is divided into 13 regions (4 edge regions, 9 central regions)
+* defect densities of each of regions are used as density features
+* 13 extracted features 
 
 #### 2) Geometry features
 
 <img src="https://github.com/DMkelllog/dmkelllog.github.io/blob/master/assets/images/geometry.png?raw=true" alt="geometry.png" style="zoom:30%;" />
 
-6 features
+* a salient area is extracted through noise filtering
+* based on the salient region with maximum area, six geometric features are extracted
+  * perimeter, area, length of minor axes, length of major axes, solidity and eccentricity
+* 6 extracted features 
 
 #### 3) Radon features
 
 ![radon_features.png](https://github.com/DMkelllog/dmkelllog.github.io/blob/master/assets/images/radon_features.png?raw=true)
 
-40 features
+* created by radon transformation
+  * creates two-dimensional representation of a wafer map based on a series of projections
+* cubic interpolation is applied to obtain the same number of rows.
+* 20 rows from the result of radon transformation and extracted row mean $ (R_\mu) $ and row standard deviation $(R_\sigma)$ for each row, which composes 40 radon features.
 
 total 59 manually extracted features
 
@@ -69,4 +81,3 @@ resize size = 32, 64, 96, 128
 
 <img src="https://github.com/DMkelllog/dmkelllog.github.io/blob/master/assets/images/cnn%20architecture.PNG?raw=true" alt="cnn architecture.PNG" style="zoom: 67%;" />
 
-[images] CNN architecture
