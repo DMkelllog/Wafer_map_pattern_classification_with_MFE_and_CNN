@@ -2,8 +2,7 @@
 
 ## 0. Data Description
 
-<img src="https://github.com/DMkelllog/dmkelllog.github.io/blob/master/assets/images/Data%20description.jpg?raw=true" alt="Data description.jpg" style="zoom: 40%;" >
-
+<img src="https://github.com/DMkelllog/dmkelllog.github.io/blob/master/assets/images/Data%20description.jpg?raw=true" alt="Data description.jpg" width="30%" height="30%" >
 
 
 
