@@ -37,7 +37,8 @@
 * created by radon transformation
   * creates two-dimensional representation of a wafer map based on a series of projections
 * cubic interpolation is applied to obtain the same number of rows.
-* 20 rows from the result of radon transformation and extracted row mean <img src="https://render.githubusercontent.com/render/math?math=R_\mu"> and row standard deviation <img src="https://render.githubusercontent.com/render/math?math=R_\sigma"> for each row, which composes 40 radon features.
+* 20 rows from the result of radon transformation and extracted row mean <img src="https://render.githubusercontent.com/render/math?math=R_\mu"> and row standard deviation <img src="https://render.githubusercontent.com/render/math?math=R_\sigma"> for each row
+* 40 extracted features 
 
 total 59 manually extracted features
 
