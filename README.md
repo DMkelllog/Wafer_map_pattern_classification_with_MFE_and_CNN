@@ -38,7 +38,7 @@
 * created by radon transformation
   * creates two-dimensional representation of a wafer map based on a series of projections
 * cubic interpolation is applied to obtain the same number of rows.
-* 20 rows from the result of radon transformation and extracted row mean <img src="https://render.githubusercontent.com/render/math?math=R_\mu">and row standard deviation<img src="https://render.githubusercontent.com/render/math?math=R_\sigma"> for each row, which composes 40 radon features.
+* 20 rows from the result of radon transformation and extracted row mean <img src="https://render.githubusercontent.com/render/math?math=R_\mu"> and row standard deviation <img src="https://render.githubusercontent.com/render/math?math=R_\sigma"> for each row, which composes 40 radon features.
 
 total 59 manually extracted features
 
@@ -81,3 +81,32 @@ resize size = 32, 64, 96, 128
 
 <img src="https://github.com/DMkelllog/dmkelllog.github.io/blob/master/assets/images/cnn%20architecture.PNG?raw=true" alt="cnn architecture.PNG" style="zoom: 67%;" />
 
+#### 3) Training settings
+
+* batch size: 64
+* optimizer: adam
+* learning rate: 10<sup>-4</sup>
+* max epoch: 1000
+* early stopping: 10 consecutive stagnation of validation loss
+
+## 3) Evaluation
+
+#### 1) Data split
+
+* Train size
+  * 500, 5000, 50000, 162946 (all available)
+  * 20% of train size used for validation
+* Test size
+  * 10000
+
+#### 2) Metrics
+
+* macro average F1 score
+* micro average F1 score
+
+#### 3) Replicaitons
+
+* 10 replications
+  * different data split
+  * differemt random seed
+* mean and standard deviation
