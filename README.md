@@ -110,3 +110,12 @@ resize size = 32, 64, 96, 128
   * different data split
   * differemt random seed
 * mean and standard deviation
+
+## References
+
+* Nakazawa, Takeshi, and Deepak V. Kulkarni. "Wafer map defect pattern classification and image retrieval using convolutional neural network." IEEE Transactions on Semiconductor Manufacturing 31.2 (2018): 309-314.
+* Yu, Naigong, Qiao Xu, and Honglu Wang. "Wafer Defect Pattern Recognition and Analysis Based on Convolutional Neural Network." IEEE Transactions on Semiconductor Manufacturing 32.4 (2019): 566-573.
+* Wu, Ming-Ju, Jyh-Shing R. Jang, and Jui-Long Chen. "Wafer map failure pattern recognition and similarity ranking for large-scale data sets." IEEE Transactions on Semiconductor Manufacturing 28.1 (2014): 1-12.
+* Fan, Mengying, Qin Wang, and Ben van der Waal. "Wafer defect patterns recognition based on OPTICS and multi-label classification." 2016 IEEE Advanced Information Management, Communicates, Electronic and Automation Control Conference (IMCEC). IEEE, 2016. (2016): 912-915.
+* WM-811K(LSWMD). National Taiwan University Department of Computer Science Multimedia Information Retrieval LAB http://mirlab.org/dataSet/public/
+* Stéfan van der Walt, Johannes L. Schönberger, Juan Nunez-Iglesias, François Boulogne, Joshua D. Warner, Neil Yager, Emmanuelle Gouillart, Tony Yu, and the scikit-image contributors. scikit-image: Image processing in Python. PeerJ 2:e453 (2014) https://doi.org/10.7717/peerj.453
