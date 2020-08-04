@@ -2,6 +2,12 @@
 
 ## 0. Data Description
 
+* WM-811K dataset 
+  * 811457 wafer maps collected from 46393 lots in real-world fabrication 
+  * 172950 wafers were labeled by domain experts. 
+  * 9 defect pattern classes(Center, Donut, Edge-ring, Edge-local, Local, Random, Near-full, Scratch)
+  * Four abnormal wafer maps with less than 100 dies are removed (None pattern class)
+
 <img src="https://github.com/DMkelllog/dmkelllog.github.io/blob/master/assets/images/Data%20description.jpg?raw=true" alt="Data description.jpg" width="60%" height="60%" >
 
 
