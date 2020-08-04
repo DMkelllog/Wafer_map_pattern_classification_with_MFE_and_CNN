@@ -95,7 +95,7 @@ resize size = 32, 64, 96, 128
 * max epoch: 1000
 * early stopping: 10 consecutive stagnation of validation loss
 
-## 3) Evaluation
+## 3. Evaluation
 
 #### 1) Data split
 
