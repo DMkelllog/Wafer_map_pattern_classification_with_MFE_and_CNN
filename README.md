@@ -2,7 +2,7 @@
 
 ## 0. Data Description
 
-<img src="https://github.com/DMkelllog/dmkelllog.github.io/blob/master/assets/images/Data%20description.jpg?raw=true" alt="Data description.jpg" width="30%" height="30%" >
+<img src="https://github.com/DMkelllog/dmkelllog.github.io/blob/master/assets/images/Data%20description.jpg?raw=true" alt="Data description.jpg" width="60%" height="60%" >
 
 
 
@@ -23,7 +23,7 @@
 
 #### 2) Geometry features
 
-<img src="https://github.com/DMkelllog/dmkelllog.github.io/blob/master/assets/images/geometry.png?raw=true" alt="geometry.png" style="zoom:30%;" />
+<img src="https://github.com/DMkelllog/dmkelllog.github.io/blob/master/assets/images/geometry.png?raw=true" alt="geometry.png" width="60%" height="60%">
 
 * a salient area is extracted through noise filtering
 * based on the salient region with maximum area, six geometric features are extracted
