@@ -1,6 +1,6 @@
 # Wafer map pattern classification
 
-## 0. Data Description
+## 1. Data Description
 
 * WM-811K dataset 
   * 811457 wafer maps collected from 46393 lots in real-world fabrication 
@@ -13,7 +13,7 @@
 
 
 
-## 1. Manual Feature Extraction approaches
+## 2. Manual Feature Extraction approaches
 
 ![MFE.png](https://github.com/DMkelllog/dmkelllog.github.io/blob/master/assets/images/MFE.png?raw=true)
 
@@ -68,7 +68,7 @@ RBF kernel, C = 1000, gamma = 0.001
 (20% of training dataset used for hyperparameter search)
 (standard scaling with training dataset)
 
-## 2. Convolutional Neural Network approaches
+## 3. Convolutional Neural Network approaches
 
 ![CNN.png](https://github.com/DMkelllog/dmkelllog.github.io/blob/master/assets/images/CNN.png?raw=true)
 
@@ -95,7 +95,7 @@ resize size = 32, 64, 96, 128
 * max epoch: 1000
 * early stopping: 10 consecutive stagnation of validation loss
 
-## 3. Evaluation
+## 4. Evaluation
 
 #### 1) Data split
 
